@@ -12,7 +12,7 @@
             }
             header{
                 height:185px;
-                background: linear-gradient(to right,#c72b62,#7b3d82);
+                background: linear-gradient(to right,darkblue,rgb(245, 48, 81));
                 display:flex;
                 align-items:center;
                 justify-content:space-between;
@@ -33,12 +33,38 @@
                margin:0;
                text-shadow:3px 3px 5px #000;
             }
+            .title h2{
+                font-size: 25px;
+                margin: 15px 0;
+            }
+            .title p{
+                font-size: 15px;
+                color: wheat;
+                margin: 0;
+            }
             .profile img{
                width:120px;
                height:120px;
                border-radius:50%;
                border:4px solid white;
             } 
+            nav{
+               background: rgb(78, 78, 79);
+               height:35px;
+               display:flex;
+               justify-content:center;
+               align-items:center;
+               gap:40px;
+            }
+            nav a{
+               color:white;
+               text-decoration:none;
+               font-size:20px;
+            }
+            nav a:hover{
+               color: rgb(15, 14, 14);
+            }
+
         </style>
     </head>
     <body>
@@ -49,10 +75,26 @@
             
             <div class="title">
                 <h1>JH Patel Institude of Management & Technology</h1>
+
+                <h2>Affiliated to Davanagere University</h2>
+
+                <p>Empowering Minds | Shaping Futures</p>
             </div>
             <div class="profile">
-                <img src=""
+                <img src="jhp.jpg" alt="founder img">
             </div>
         </header>
+
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Faculty</a>
+            <a href="#">Placement</a>
+            <a href="#">Courses</a>
+            <a href="#">Events </a>
+            <a href="#">Contact</a>
+
+        </nav>
     </body>
 </html>
