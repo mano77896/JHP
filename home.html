@@ -11,23 +11,48 @@
                 background: #f4f4f4;
             }
             header{
-                background: linear-gradient(to right,darkblue,rgb(235, 55, 85));
-                margin-bottom: 2rem;
-                padding: 1rem;
-                text-align: center;
-                color: wheat;
+                height:185px;
+                background: linear-gradient(to right,#c72b62,#7b3d82);
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                padding:0 60px;
             }
-            header img{
-                width: 60px;
-                border-radius: 5px;
-                vertical-align: left;
+            .logo img{
+                width:120px;
+                height:120px;
+                border-radius:50%;
             }
+
+            .title{
+                text-align:center;
+                color:white;
+            }
+            .title h1{
+               font-size:35px;
+               margin:0;
+               text-shadow:3px 3px 5px #000;
+            }
+            .profile img{
+               width:120px;
+               height:120px;
+               border-radius:50%;
+               border:4px solid white;
+            } 
         </style>
     </head>
     <body>
         <header>
-            <img src="logo2.webp" alt="clglogo">
-            <h1>JH Patel Institude of Management & Technology</h1>
+            <div class="logo">
+               <img src="logo2.webp" alt="logo">
+            </div>
+            
+            <div class="title">
+                <h1>JH Patel Institude of Management & Technology</h1>
+            </div>
+            <div class="profile">
+                <img src=""
+            </div>
         </header>
     </body>
 </html>
