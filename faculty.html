@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Faculty - JH Patel Institute</title>
+
+<link rel="icon" href="logo2.webp">
+
+
+<style>
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin:0;
+
+    background:#eef2f7;
+
+    color:#222;
+
+    padding-top:220px;
+
+}
+
+
+header{
+
+    height:185px;
+
+    background:linear-gradient(to right,darkblue,rgb(245,48,81));
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 60px;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:93%;
+
+    z-index:1000;
+
+}
+
+
+.logo img{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+}
+
+
+
+.title{
+
+    text-align:center;
+
+    color:white;
+
+}
+
+
+
+.title h1{
+
+    font-size:35px;
+
+    margin:0;
+
+    text-shadow:3px 3px 5px black;
+
+}
+
+
+.title h2{
+
+    font-size:25px;
+
+    margin:15px 0;
+
+}
+
+
+
+.title p{
+
+    color:wheat;
+
+    margin:0;
+
+}
+
+
+
+
+.profile img{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    border:4px solid white;
+
+}
+
+
+nav{
+
+    background:rgb(78,78,79);
+
+    height:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:40px;
+
+    position:fixed;
+
+    top:185px;
+
+    left:0;
+
+    width:100%;
+
+    z-index:999;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+}
+
+
+
+nav a:hover{
+
+    color:pink;
+
+}
+.faculty-title{
+
+    text-align:center;
+
+    margin:30px;
+
+}
+
+
+.faculty-title h1{
+
+    font-size:42px;
+
+    color:#3b164f;
+
+}
+
+
+.faculty-title p{
+
+    font-size:22px;
+
+    color:#555;
+
+}
+.faculty-container{
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+    flex-wrap:wrap;
+
+
+}
+
+.card{
+
+
+    width:300px;
+
+    height:430px;
+
+
+    background:white;
+
+
+    border-radius:20px;
+
+
+    text-align:center;
+
+
+    padding:20px;
+
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+
+
+    border-top:8px solid #3b164f;
+
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:1s;
+
+
+}
+
+
+
+.card:hover{
+
+
+    transform:translateY(-10px);
+
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+
+
+}
+
+
+
+.card img{
+
+
+    width:100%;
+
+    height:260px;
+
+
+    object-fit:contain;
+
+
+    border-radius:15px;
+
+
+}
+
+
+
+.card h2{
+
+    color:#3b164f;
+
+    font-size:25px;
+
+}
+
+
+
+.card p{
+
+    font-size:18px;
+
+    color:#555;
+
+}
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+footer{
+    background: #0f172a;
+    color:white;
+    padding:30px;
+    text-align:center;
+    margin-top: 60px;
+}
+.social-icons img{
+    width:30px;
+    margin: 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+
+<div class="logo">
+
+<img src="logo2.webp">
+
+</div>
+
+
+
+<div class="title">
+
+<h1>
+JH Patel Institute of Management & Technology
+</h1>
+
+
+<h2>
+Affiliated to Davanagere University
+</h2>
+
+
+<p>
+Empowering Minds | Shaping Futures
+</p>
+
+
+</div>
+
+
+
+
+<div class="profile">
+
+<img src="jhp.jpg">
+
+</div>
+
+
+
+</header>
+
+
+
+
+<nav>
+
+
+<a href="home.html">Home</a>
+
+<a href="#">About</a>
+
+<a href="faculty.html">Faculty</a>
+
+<a href="#">Placement</a>
+
+<a href="#">Courses</a>
+
+<a href="#">Events</a>
+
+<a href="#">Contact</a>
+
+
+</nav>
+
+
+
+
+
+<div class="faculty-title">
+
+
+<h1>College Faculty's</h1>
+
+
+<p>
+Well Experienced Faculty</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="faculty-container">
+
+
+
+<div class="card">
+
+<img src="m.png">
+
+<h2>Mustaf</h2>
+
+<p>
+Secretary<br>
+B.E<br>
+MOB: 72591 02724
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="js.png">
+
+<h2>Jyothi A</h2>
+
+<p>
+Principal<br>
+MCA<br>
+MOB: 72594 29603 
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="k.png">
+
+<h2>Kedarnath Patil</h2>
+
+<p>
+Head Of The Department<br>
+MCA<br>
+MOB: 99029 94744</p>
+
+</div>
+
+<div class="card">
+
+<img src="s.png">
+
+<h2>Prof.shaila N</h2>
+
+<p>M.A C.P.Ed<br>
+   MOB: 
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="kk.png">
+
+<h2>Karthik B.K</h2>
+
+<p>
+MCA<br>
+MOB: 80885 10295 
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<script>
+
+
+let cards=document.querySelectorAll(".card");
+
+
+window.onload=()=>{
+
+
+cards.forEach((card,index)=>{
+
+
+setTimeout(()=>{
+
+
+card.classList.add("show");
+
+
+},index*300);
+
+
+
+});
+
+
+};
+
+
+
+</script>
+
+<div class="social-icons">
+    <footer>
+        <p style="color: whitesmoke;">&copy;2026 JH Patel Institude Of Management Tecnology</p>
+        <a href="https://www.instagram.com/jhpatel_college/?__pwa=1"><img src="instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/Jhpatelcollegedvg/?ref=PROFILE_EDIT_xav_ig_profile_page_web#"><img src="facebook.png" alt="facebook"></a>
+    </footer>
+</div>        
+
+</body>
+
+</html>
